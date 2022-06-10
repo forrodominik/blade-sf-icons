@@ -28,7 +28,7 @@ php artisan vendor:publish --tag=blade-sf-icons-config
 Icons can be used as self-closing Blade components which will be compiled to SVG icons:
 
 ```blade
-<x-sf-icon-adjustments/>
+<x-sficon-adjustments/>
 ```
 
 You can also pass classes to your icon components:
