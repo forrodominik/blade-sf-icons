@@ -1,0 +1,44 @@
+{
+    "name": "forrodominik/blade-sf-icons",
+    "description": "A package to easily make use of StoreFront Icons in your Laravel Blade views.",
+    "keywords": ["Blade", "StoreFront", "Icons", "Laravel"],
+    "homepage": "https://github.com/forrodominik/blade-sf-icons",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Forró Dominik",
+            "homepage": "https://storefront.hu"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "blade-ui-kit/blade-icons": "^1.1",
+        "illuminate/support": "^8.0|^9.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0|^7.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BladeUI\\Heroicons\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+              "BladeSfIconsServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
