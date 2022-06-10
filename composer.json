@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BladeUI\\Heroicons\\": "src"
+            "BladeUI\\SfIcons\\": "src"
         }
     },
     "autoload-dev": {
