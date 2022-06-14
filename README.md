@@ -28,23 +28,23 @@ php artisan vendor:publish --tag=blade-sf-icons-config
 Icons can be used as self-closing Blade components which will be compiled to SVG icons:
 
 ```blade
-<x-sf-icon-adjustments/>
+<x-sficon-adjustments/>
 ```
 
 You can also pass classes to your icon components:
 
 ```blade
-<x-sf-icon-adjustments class="w-6 h-6 text-gray-500"/>
+<x-sficon-adjustments class="w-6 h-6 text-gray-500"/>
 ```
 
 And even use inline styles:
 
 ```blade
-<x-sf-icon-adjustments style="color: #555"/>
+<x-sficon-adjustments style="color: #555"/>
 ```
 
 The solid icons can be referenced like this:
 
 ```blade
-<x-sf-icon-s-adjustments/>
+<x-sficon-s-adjustments/>
 ```
