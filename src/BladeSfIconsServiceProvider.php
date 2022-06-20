@@ -17,7 +17,7 @@ final class BladeSfIconsServiceProvider extends ServiceProvider
         $this->callAfterResolving(Factory::class, function (Factory $factory, Container $container) {
             $config = $container->make('config')->get('blade-sf-icons', []);
 
-            $factory->add('sf-icon', array_merge(['path' => __DIR__ . '/../resources/svg'], $config));
+            $factory->add('sf-icon', array_merge(['path' => __DIR__ . '/../../../public/icons/svg'], $config));
         });
     }
 
